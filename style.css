@@ -1,0 +1,246 @@
+/*basics...............................................................................*/
+main{
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: -1%;
+    overflow-x: hidden;
+    background-color:rgb(214, 216, 255);
+    background-image: url("images/thoachter.png")
+}
+
+body{
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin-top: -1%;
+}
+
+
+h1, h2, h3, h4, p, li {
+    font-size: 3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(48, 46, 145);
+    }
+
+  h2 {
+    font-size: 4em;
+    color:rgb(48, 46, 145);
+    }
+
+  h3 {
+    font-size: 3em;
+    }
+
+  h4 {
+    font-size: 2.4em;
+    color: rgb(104, 86, 207)
+    }
+
+  p {
+    font-size: 1.7em;
+    text-align: start
+    }
+
+  li {
+    font-size: 1.0em;
+    text-align: center
+    }
+
+  h1 {
+    margin: 0%;
+    margin-top: 0.5%;
+    transition: all 100ms ease;
+    }
+
+  h1:hover {
+    font-size: 3.5em;
+    }
+      
+  hr{
+    border: 1px solid rgb(103, 84, 200);
+    }
+
+/*header...............................................................................*/
+header {
+    position: fixed;
+    z-index: 4;
+    top: 0;  
+    background-color:rgb(162, 195, 255);
+    border-bottom: solid rgb(48, 46, 145) 0.3em;
+    display: flex;
+    justify-content: center;
+    height: 5vw;
+    width: 100vw;
+    margin-left: -1%;
+    }
+
+header h1 {
+    text-decoration: none;
+    }  
+
+  header ul:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 70vw;
+    list-style-type: none;
+    font-size: 1.3em;
+    margin-top: 2.5%;
+    }
+
+    header a:visited {
+        color: black;
+        text-decoration: none;
+    }
+  header li a {
+    background-color: rgb(206, 226, 255);
+    color: black;
+    text-decoration: none;
+    padding: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-right: 5%;
+    margin-top: 20%;
+    transition: all 100ms ease;
+    }
+
+  header li a:hover {
+    background-color: rgb(124, 192, 255);
+    }
+
+footer {
+    background-color:rgb(162, 195, 255);
+    padding: 1%;
+    width: 100vw;
+    margin-left: -1%;
+    margin-bottom: -1%;
+}
+footer p {
+    text-align: center;
+}
+
+
+
+article {
+    margin-left: 13%;
+    background-color: rgb(192, 192, 255);
+    width: 70%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+article h3{
+    text-align: center;
+    width: 70%;
+    margin-bottom: -2%;
+    margin-top: 0%;
+
+}
+article img{
+    width: 70vw;
+
+}
+.topicintro{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 13%;
+}
+.topicintro h2{
+    margin-bottom: -1%;
+    margin-left: 0%;
+}
+
+/*voorpagina........................................................*/
+.naamgroot{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 20%;
+    font-size: 2em;
+}
+
+.vp h1{
+    font-size: 5em;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.headervp{
+    /* Zorgt ervoor dat de header ontzichtbaar wordt en niet in de weg zit! */
+      width: 0vw
+    }
+.vp body{
+    margin-left: 25%;
+}
+
+.vplijst{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+.vplijst div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+}
+
+.hallo{
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: -3%;
+    font-size: 4em;
+}
+
+.vptextje{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 5%;
+    font-size: 2em;
+}
+
+.naamgroot img{
+    width: 30%;
+    margin-right: -20%;
+    margin-left: 5%;
+}
+
+.naamgroot{
+    background-color:rgb(162, 195, 255);
+    width: 100%;
+    margin-left: -0%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    margin-top: -1%;
+}
+
+.moespng{
+    height: 30vw;
+    width: auto;
+}
+
+.vplijst img{
+    width: 40vw;
+    height: 23vw;
+}
+
+.vplijst div{
+   background-color:rgb(124, 192, 255);
+   padding: 2%;
+   margin-bottom: 2%;
+   display: flex;
+   text-align: center;
+}
+
+.vplijst{
+    margin-left: -2%;
+ }
+
+ .vplijst div p{
+    margin-bottom: -50%;
+ }
